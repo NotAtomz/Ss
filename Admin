@@ -109,8 +109,8 @@ repeat wait() until game:GetService("Players").LocalPlayer
 p = ":"
 
 game.StarterGui:SetCore("SendNotification", {
-	Title = "Ss";
-	Text = "Prefix is c!";
+	Title = "Serverside";
+	Text = "Prefix is :";
 })
 
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
@@ -184,7 +184,7 @@ HOODWINK.BackgroundTransparency = 1
 HOODWINK.Position = UDim2.new(0.433414042, 0, 0.61709404, 0)
 HOODWINK.Size = UDim2.new(0.149313956, 0, 0.0854700878, 0)
 HOODWINK.Font = Enum.Font.GothamBold
-HOODWINK.Text = "Ss"
+HOODWINK.Text = "Serverside"
 HOODWINK.TextColor3 = Color3.new(1, 1, 1)
 HOODWINK.TextScaled = true
 HOODWINK.TextSize = 14
@@ -286,7 +286,7 @@ TextLabel.BackgroundTransparency = 1
 TextLabel.Position = UDim2.new(0.0986582711, 0, 0.00751879532, 0)
 TextLabel.Size = UDim2.new(0.795974731, 0, 0.100000001, 0)
 TextLabel.Font = Enum.Font.GothamSemibold
-TextLabel.Text = "Ss"
+TextLabel.Text = "Serverside"
 TextLabel.TextColor3 = Color3.new(0.4, 0.4, 0.4)
 TextLabel.TextSize = 14
 
@@ -1276,11 +1276,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 		noclip = false
 	end
 	if string.sub(msg, 1, 7) == (p.."btools") then
-loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
-		game.StarterGui:SetCore("SendNotification", {
-			Title = string.sub(msg, 1, 7);
-			Text = "Btools given";
-		})
+    loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
 	end
 	if string.sub(msg, 1, 9) == (p.."clickdel") then 
 		game.StarterGui:SetCore("SendNotification", {
@@ -3182,7 +3178,7 @@ end)
 
 while wait(30) do
 	game.StarterGui:SetCore("ChatMakeSystemMessage", {
-    	Text = "TIP: \"L tubers made this" tubers stinks jk script by Tubers93";
+    	Text = "TIP: \L tubers made this tubers stinks jk script by Tubers93";
     	Font = Enum.Font.SourceSansBold;
     	Color = Color3.fromRGB(255, 0, 255);
 	})
