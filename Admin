@@ -101,7 +101,8 @@ local cmds = {
 	"92 animrespawn",
 	"93 infodump",
 	"94 glitchaudio",
-	"95 tpua"
+	"95 tpua",
+	"96 f3x"
 }
 
 repeat wait() until game:GetService("Players").LocalPlayer
@@ -2290,7 +2291,7 @@ TextBox.FocusLost:Connect(function(enterPressed)
 			lplr.Character.HumanoidRootPart.BodyThrust:Remove()
 			noclip = false
 		end
-		if string.sub(TextBox.Text, 1, 6) == "btools" then
+		if string.sub(TextBox.Text, 1, 6) == "f3x" then
 			tool1 = Instance.new("HopperBin", lplr.Backpack)
 			tool2 = Instance.new("HopperBin", lplr.Backpack)
 			tool3 = Instance.new("HopperBin", lplr.Backpack)
