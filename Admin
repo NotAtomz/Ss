@@ -1,6 +1,6 @@
 if not game:IsLoaded() then
 	msg = Instance.new("Message", workspace)
-	msg.Text = "Waiting for game to load before running Ss..."
+	msg.Text = "Waiting for game to load before running Serverside..."
 	repeat wait() until game:IsLoaded()
 	msg:Destroy()
 end
@@ -114,7 +114,7 @@ game.StarterGui:SetCore("SendNotification", {
 })
 
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-    Text = "Thank you for using Serverside by tubers93! Press ; to see commands.";
+    Text = "Thank you for using Serverside V.2 Created by tubers93! Press ; to see commands.";
     Font = Enum.Font.SourceSansBold;
     Color = Color3.fromRGB(255, 0, 255);
 })
@@ -184,7 +184,7 @@ HOODWINK.BackgroundTransparency = 1
 HOODWINK.Position = UDim2.new(0.433414042, 0, 0.61709404, 0)
 HOODWINK.Size = UDim2.new(0.149313956, 0, 0.0854700878, 0)
 HOODWINK.Font = Enum.Font.GothamBold
-HOODWINK.Text = "Serverside"
+HOODWINK.Text = "Serverside V.2"
 HOODWINK.TextColor3 = Color3.new(1, 1, 1)
 HOODWINK.TextScaled = true
 HOODWINK.TextSize = 14
@@ -850,18 +850,18 @@ end)
 credits = {
 	"Reviz FE Admin - For the fly script.",
 	"Timeless/xFunnieuss - for the GetPlayer function also from Reviz FE Admin.",
-	"Sinuris#3827 on discord - That's me.",
+	"tubers93#4764 on discord - That's me.",
 	"Voice_lessHax/Voiceless [SHOWCASER/TESTER] - Thanks for the showcase!",
 	"Scum - Tester - He's also fucking epic.",
-	"Murigo - Tester",
-	"Seedlist - Tester",
-	"DankBladeZS - Tester",
+	"1x1x1 - Tester",
+	"Tubers93 - Creater",
+	"c00lkid - Tester",
 	"ScriptX#3145 - FE Punch script.",
-    "Racist Dolphin - Project Bullshit v3",
-    "xqzep#1212 - Backflip and Frontflip",
+        "Racist Dolphin - Project Bullshit v3",
+        "xqzep#1212 - Backflip and Frontflip",
 	"WhiteRainbow#9523 - Aura script",
-	"Luckytrang2010 - scripting helper and owner of Ego and co-owner of Hoodwink because we've merged our admins basically.",
-	"Infinite Yield - some scripts in Hoodwink. I give full credit to IY for the scripts I used because I do not own them and I did not make them"
+	"Luckytrang2010 - scripting helper.",
+	"Infinite Yield - some scripts in Serverside. I give full credit to IY for the scripts I used because I do not own them and I did not make them"
 }
 
 function change()
