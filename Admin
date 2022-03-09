@@ -114,7 +114,7 @@ game.StarterGui:SetCore("SendNotification", {
 })
 
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-    Text = "Thank you for using Ss! Press ; to see commands.";
+    Text = "Thank you for using Serverside by tubers93! Press ; to see commands.";
     Font = Enum.Font.SourceSansBold;
     Color = Color3.fromRGB(255, 0, 255);
 })
@@ -3176,9 +3176,9 @@ Pink5.MouseButton1Click:Connect(function()
 	end
 end)
 
-while wait(30) do
+while wait(100) do
 	game.StarterGui:SetCore("ChatMakeSystemMessage", {
-    	Text = "TIP: \L tubers made this tubers stinks jk script by Tubers93";
+    	Text = "TIP: \Having script errors? contact me on discord at tubers93#4764";
     	Font = Enum.Font.SourceSansBold;
     	Color = Color3.fromRGB(255, 0, 255);
 	})
